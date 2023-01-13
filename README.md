@@ -1,16 +1,11 @@
 # flutter_workshop
 
-A new Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a code template to understand the basics of Flutter
 
-A few resources to get you started if this is your first Flutter project:
+To download this repository: 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img width="470" alt="image" src="https://user-images.githubusercontent.com/67997835/212420273-e752650a-f54e-418d-bf40-26ebe3a85bed.png">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download and unzip the file.
