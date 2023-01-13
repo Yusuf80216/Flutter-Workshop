@@ -5,7 +5,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 class AppbarWidget extends StatelessWidget {
-  const AppbarWidget({super.key});
+  const AppbarWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +34,7 @@ class AppbarWidget extends StatelessWidget {
 }
 
 class TextWidget extends StatelessWidget {
-  const TextWidget({super.key});
+  const TextWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +45,7 @@ class TextWidget extends StatelessWidget {
 }
 
 class ContainerWidget extends StatelessWidget {
-  const ContainerWidget({super.key});
+  const ContainerWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -58,7 +58,7 @@ class ContainerWidget extends StatelessWidget {
 }
 
 class ImageWidget extends StatelessWidget {
-  const ImageWidget({super.key});
+  const ImageWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -70,7 +70,7 @@ class ImageWidget extends StatelessWidget {
 }
 
 class PositioningWidget extends StatelessWidget {
-  const PositioningWidget({super.key});
+  const PositioningWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -89,7 +89,7 @@ class PositioningWidget extends StatelessWidget {
 }
 
 class RowWidget extends StatelessWidget {
-  const RowWidget({super.key});
+  const RowWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -118,7 +118,7 @@ class RowWidget extends StatelessWidget {
 }
 
 class ColumnWidget extends StatelessWidget {
-  const ColumnWidget({super.key});
+  const ColumnWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -147,7 +147,7 @@ class ColumnWidget extends StatelessWidget {
 }
 
 class StackWidget extends StatelessWidget {
-  const StackWidget({super.key});
+  const StackWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -177,7 +177,7 @@ class StackWidget extends StatelessWidget {
 }
 
 class ButtonWidget extends StatelessWidget {
-  const ButtonWidget({super.key});
+  const ButtonWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -207,7 +207,7 @@ class ButtonWidget extends StatelessWidget {
 }
 
 class DividerWidget extends StatelessWidget {
-  const DividerWidget({super.key});
+  const DividerWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
